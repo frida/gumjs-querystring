@@ -11,6 +11,7 @@
   ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com>",
   "main": "index.js",
+  "type": "module",
   "files": [
     "/index.js",
     "/index.d.ts"
