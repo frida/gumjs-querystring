@@ -1,35 +1,27 @@
 {
-  "name": "querystring",
-  "id": "querystring",
-  "version": "0.2.1",
-  "description": "Node's querystring module for all engines.",
+  "name": "@frida/querystring",
+  "description": "Node.js's querystring module for Frida",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
-    "commonjs",
     "query",
     "querystring"
   ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com>",
   "main": "index.js",
+  "files": [
+    "/index.js",
+    "/index.d.ts"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Gozala/querystring.git",
-    "web": "https://github.com/Gozala/querystring"
+    "url": "git://github.com/frida/gumjs-querystring.git",
+    "web": "https://github.com/frida/gumjs-querystring"
   },
   "bugs": {
-    "url": "http://github.com/Gozala/querystring/issues/"
-  },
-  "devDependencies": {
-    "test": "~0.x.0",
-    "retape": "~0.x.0",
-    "tape": "~0.1.5"
-  },
-  "engines": {
-    "node": ">=0.4.x"
-  },
-  "scripts": {
-    "test": "npm run test-node && npm run test-tap",
-    "test-node": "node ./test/common-index.js",
-    "test-tap": "node ./test/tap-index.js"
+    "url": "http://github.com/frida/gumjs-querystring/issues/"
   },
   "license": "MIT"
 }
